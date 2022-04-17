@@ -26,19 +26,19 @@ We can omit the inner keyword because by default join is inner join. So when you
 **Full Outer Join :** It will include the unmatched rows of both left and right side table. (left_table **full outer join** right_table)
 
 ```sql
-a)Left Outer Join
+a)Left Outer Join :
 select id1,id2,name1,name2
-from t11 left outer join t22    [you can omit the keyword outer here]
+from t11 left outer join t22     [you can omit the keyword outer here]
 on id1=id2;
 
-b)Right Outer Join
+b)Right Outer Join :
 select id1,id2,name1,name2
-from t11 right outer join t22    [again you can omit the keyword outer here]
+from t11 right outer join t22    [you can omit the keyword outer here]
 on id1=id2;
 
-c)Full Outer Join
+c)Full Outer Join :
 select id1,id2,name1,name2
-from t11 full outer join t22    [as before you can omit the keyword outer here]
+from t11 full outer join t22     [you can omit the keyword outer here]
 on id1=id2;
 ```
 
